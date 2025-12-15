@@ -64,12 +64,12 @@ export default function VirtualPet({ streak, xp, level }: VirtualPetProps) {
     const bounceVariants = {
         idle: {
             y: [0, -5, 0],
-            transition: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+            transition: { duration: 2, repeat: Infinity, ease: "easeInOut" as const }
         },
         excited: {
             y: [0, -15, 0],
             rotate: [-5, 5, -5],
-            transition: { duration: 0.5, repeat: Infinity }
+            transition: { duration: 0.5, repeat: Infinity, ease: "easeInOut" as const }
         }
     };
 
@@ -106,8 +106,8 @@ export default function VirtualPet({ streak, xp, level }: VirtualPetProps) {
                         className="absolute inset-0 rounded-full blur-xl"
                         style={{
                             background: `radial-gradient(circle, ${level >= 50 ? "rgba(147, 51, 234, 0.5)" :
-                                    level >= 20 ? "rgba(59, 130, 246, 0.4)" :
-                                        "rgba(16, 185, 129, 0.3)"
+                                level >= 20 ? "rgba(59, 130, 246, 0.4)" :
+                                    "rgba(16, 185, 129, 0.3)"
                                 } 0%, transparent 70%)`,
                             transform: "scale(1.5)"
                         }}

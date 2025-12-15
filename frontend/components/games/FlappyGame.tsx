@@ -24,7 +24,7 @@ export default function FlappyGame({ onGameEnd }: FlappyGameProps) {
     const [pipes, setPipes] = useState<{ x: number; gapY: number; passed: boolean }[]>([]);
 
     const gameRef = useRef<HTMLDivElement>(null);
-    const frameRef = useRef<number>();
+    const frameRef = useRef<number | undefined>(undefined);
 
     useEffect(() => {
         const saved = localStorage.getItem("flappy_high_score");

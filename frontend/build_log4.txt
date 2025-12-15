@@ -1,0 +1,68 @@
+﻿node.exe : [baseline-browser-mapping] The 
+data in this module is over two months 
+old.  To ensure accurate Baseline data, 
+please update: `npm i 
+baseline-browser-mapping@latest -D`
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : ([baseline-brows...ping@latest -D`:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+   Γû▓ Next.js 16.0.5 (Turbopack)
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in 
+this module is over two months old.  To 
+ensure accurate Baseline data, please 
+update: `npm i 
+baseline-browser-mapping@latest -D`
+ Γ£ô Compiled successfully in 7.7s
+   Running TypeScript ...
+Failed to compile.
+
+./components/HomeAvatar.tsx:137:41
+Type error: Type '{ children: Element[]; 
+disableNormalPass: true; }' is not 
+assignable to type 'IntrinsicAttributes & 
+EffectComposerProps & 
+RefAttributes<EffectComposer>'.
+  Property 'disableNormalPass' does not 
+exist on type 'IntrinsicAttributes & 
+EffectComposerProps & 
+RefAttributes<EffectComposer>'. Did you 
+mean 'enableNormalPass'?
+
+[0m [90m 135 |[39m
+ [90m 136 |[39m                         
+{[90m/* Post Processing */[39m}
+[31m[1m>[22m[39m[90m 137 |[39m       
+                  
+[33m<[39m[33mEffectComposer[39m 
+disableNormalPass[33m>[39m
+ [90m     |[39m                          
+               [31m[1m^[22m[39m
+ [90m 138 |[39m                          
+   [33m<[39m[33mBloom[39m 
+luminanceThreshold[33m=[39m{[35m1[39m} 
+mipmapBlur 
+intensity[33m=[39m{[35m1.5[39m} 
+radius[33m=[39m{[35m0.6[39m} 
+[33m/[39m[33m>[39m
+ [90m 139 |[39m                          
+   [33m<[39m[33mNoise[39m 
+opacity[33m=[39m{[35m0.02[39m} 
+[33m/[39m[33m>[39m
+ [90m 140 |[39m                          
+   [33m<[39m[33mVignette[39m 
+eskil[33m=[39m{[36mfalse[39m} 
+offset[33m=[39m{[35m0.1[39m} 
+darkness[33m=[39m{[35m1.1[39m} 
+[33m/[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 
+and signal: null

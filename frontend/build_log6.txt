@@ -1,0 +1,54 @@
+﻿node.exe : [baseline-browser-mapping] The 
+data in this module is over two months 
+old.  To ensure accurate Baseline data, 
+please update: `npm i 
+baseline-browser-mapping@latest -D`
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : ([baseline-brows...ping@latest -D`:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+   Γû▓ Next.js 16.0.5 (Turbopack)
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in 
+this module is over two months old.  To 
+ensure accurate Baseline data, please 
+update: `npm i 
+baseline-browser-mapping@latest -D`
+ Γ£ô Compiled successfully in 9.5s
+   Running TypeScript ...
+Failed to compile.
+
+./components/VoiceCommands.tsx:21:35
+Type error: Cannot find name 
+'SpeechRecognition'.
+
+[0m [90m 19 |[39m     [36mconst[39m 
+[isSupported[33m,[39m setIsSupported] 
+[33m=[39m 
+useState([36mtrue[39m)[33m;[39m
+ [90m 20 |[39m
+[31m[1m>[22m[39m[90m 21 |[39m     
+[36mconst[39m recognitionRef [33m=[39m 
+useRef[33m<[39m[33mSpeechRecognition[39
+m [33m|[39m [36mnull[39m[33m>[39m([3
+6mnull[39m)[33m;[39m
+ [90m    |[39m                           
+        [31m[1m^[22m[39m
+ [90m 22 |[39m     [36mconst[39m 
+[33mAPI_URL[39m [33m=[39m process[33m.
+[39menv[33m.[39m[33mNEXT_PUBLIC_API_URL
+[39m [33m||[39m [32m"http://localhost:8
+000"[39m[33m;[39m
+ [90m 23 |[39m
+ [90m 24 |[39m     [90m// Voice 
+commands[39m[0m
+Next.js build worker exited with code: 1 
+and signal: null

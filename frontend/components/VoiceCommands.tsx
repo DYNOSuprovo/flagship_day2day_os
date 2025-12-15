@@ -18,7 +18,8 @@ export default function VoiceCommands() {
     const [feedback, setFeedback] = useState<string | null>(null);
     const [isSupported, setIsSupported] = useState(true);
 
-    const recognitionRef = useRef<SpeechRecognition | null>(null);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const recognitionRef = useRef<any>(null);
     const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
     // Voice commands
@@ -74,8 +75,9 @@ export default function VoiceCommands() {
     ];
 
     useEffect(() => {
-        // Check for browser support
-        const SpeechRecognition = window.SpeechRecognition || (window as unknown as { webkitSpeechRecognition: typeof window.SpeechRecognition }).webkitSpeechRecognition;
+        // Check for browser support - using any to handle vendor prefixes
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
         if (!SpeechRecognition) {
             setIsSupported(false);
@@ -87,7 +89,8 @@ export default function VoiceCommands() {
         recognitionRef.current.interimResults = true;
         recognitionRef.current.lang = "en-US";
 
-        recognitionRef.current.onresult = (event: SpeechRecognitionEvent) => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        recognitionRef.current.onresult = (event: any) => {
             const result = event.results[event.results.length - 1];
             const text = result[0].transcript.toLowerCase();
             setTranscript(text);

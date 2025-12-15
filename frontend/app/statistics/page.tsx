@@ -234,7 +234,7 @@ export default function StatisticsPage() {
                                     "aspect-square rounded-sm transition-colors",
                                     getIntensityColor(day.intensity)
                                 )}
-                                title={`${day.date}: ${day.count || 0} activities`}
+                                title={`${day.date}: ${day.intensity} activities`}
                             />
                         ))}
                     </div>

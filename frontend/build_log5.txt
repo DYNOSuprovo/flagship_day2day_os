@@ -1,0 +1,91 @@
+﻿node.exe : [baseline-browser-mapping] The 
+data in this module is over two months 
+old.  To ensure accurate Baseline data, 
+please update: `npm i 
+baseline-browser-mapping@latest -D`
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : ([baseline-brows...ping@latest -D`:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+   Γû▓ Next.js 16.0.5 (Turbopack)
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in 
+this module is over two months old.  To 
+ensure accurate Baseline data, please 
+update: `npm i 
+baseline-browser-mapping@latest -D`
+ Γ£ô Compiled successfully in 9.1s
+   Running TypeScript ...
+Failed to compile.
+
+./components/VirtualPet.tsx:100:21
+Type error: Type '{ idle: { y: number[]; 
+transition: { duration: number; repeat: 
+number; ease: string; }; }; excited: { y: 
+number[]; rotate: number[]; transition: { 
+duration: number; repeat: number; }; }; }' 
+is not assignable to type 'Variants'.
+  Property 'idle' is incompatible with 
+index signature.
+    Type '{ y: number[]; transition: { 
+duration: number; repeat: number; ease: 
+string; }; }' is not assignable to type 
+'Variant'.
+      Type '{ y: number[]; transition: { 
+duration: number; repeat: number; ease: 
+string; }; }' is not assignable to type 
+'TargetAndTransition'.
+        Type '{ y: number[]; transition: { 
+duration: number; repeat: number; ease: 
+string; }; }' is not assignable to type '{ 
+transition?: Transition<any> | undefined; 
+transitionEnd?: ResolvedValues | 
+undefined; }'.
+          Types of property 'transition' 
+are incompatible.
+            Type '{ duration: number; 
+repeat: number; ease: string; }' is not 
+assignable to type 'Transition<any> | 
+undefined'.
+              Type '{ duration: number; 
+repeat: number; ease: string; }' is not 
+assignable to type 
+'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; 
+repeat: number; ease: string; }' is not 
+assignable to type 
+'ValueAnimationTransition<any>'.
+                  Types of property 'ease' 
+are incompatible.
+                    Type 'string' is not 
+assignable to type 'Easing | Easing[] | 
+undefined'.
+
+[0m [90m  98 |[39m             
+[33m>[39m
+ [90m  99 |[39m                 
+[33m<[39m[33mmotion[39m[33m.[39mdiv
+[31m[1m>[22m[39m[90m 100 |[39m       
+              
+variants[33m=[39m{bounceVariants}
+ [90m     |[39m                     
+[31m[1m^[22m[39m
+ [90m 101 |[39m                     
+animate[33m=[39m{streak [33m>=[39m 
+[35m5[39m [33m?[39m 
+[32m"excited"[39m [33m:[39m 
+[32m"idle"[39m}
+ [90m 102 |[39m                     
+className[33m=[39m[32m"relative"[39m
+ [90m 103 |[39m                 
+[33m>[39m[0m
+Next.js build worker exited with code: 1 
+and signal: null

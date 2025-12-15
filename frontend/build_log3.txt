@@ -1,0 +1,52 @@
+﻿node.exe : [baseline-browser-mapping] The 
+data in this module is over two months 
+old.  To ensure accurate Baseline data, 
+please update: `npm i 
+baseline-browser-mapping@latest -D`
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : ([baseline-brows...ping@latest -D`:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+   Γû▓ Next.js 16.0.5 (Turbopack)
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in 
+this module is over two months old.  To 
+ensure accurate Baseline data, please 
+update: `npm i 
+baseline-browser-mapping@latest -D`
+ Γ£ô Compiled successfully in 7.8s
+   Running TypeScript ...
+Failed to compile.
+
+./components/games/SnakeGame.tsx:28:25
+Type error: Expected 1 arguments, but got 
+0.
+
+[0m [90m 26 |[39m
+ [90m 27 |[39m     [36mconst[39m 
+directionRef [33m=[39m useRef[33m<[39m
+[33mDirection[39m[33m>[39m([32m"RIGHT"
+[39m)[33m;[39m
+[31m[1m>[22m[39m[90m 28 |[39m     
+[36mconst[39m gameLoopRef [33m=[39m use
+Ref[33m<[39m[33mNodeJS[39m[33m.[39m[
+33mTimeout[39m[33m>[39m()[33m;[39m
+ [90m    |[39m                         
+[31m[1m^[22m[39m
+ [90m 29 |[39m
+ [90m 30 |[39m     useEffect(() 
+[33m=>[39m {
+ [90m 31 |[39m         [36mconst[39m 
+saved [33m=[39m localStorage[33m.[39mge
+tItem([32m"snake_high_score"[39m)[33m;[
+39m[0m
+Next.js build worker exited with code: 1 
+and signal: null
