@@ -1,0 +1,14 @@
+artifact_uri: file:D:/app/flagship/backend/mlruns/669410395993402861/437585ad961940fc98bb7c43eb4d8b89/artifacts
+end_time: 1764320567615
+entry_point_name: ''
+experiment_id: '669410395993402861'
+lifecycle_stage: active
+run_id: 437585ad961940fc98bb7c43eb4d8b89
+run_name: diet_LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764320567361
+status: 4
+tags: []
+user_id: dynos

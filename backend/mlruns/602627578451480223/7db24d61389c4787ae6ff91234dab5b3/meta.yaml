@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/app/flagship/backend/mlruns/602627578451480223/7db24d61389c4787ae6ff91234dab5b3/artifacts
+end_time: 1764315774634
+entry_point_name: ''
+experiment_id: '602627578451480223'
+lifecycle_stage: active
+run_id: 7db24d61389c4787ae6ff91234dab5b3
+run_name: habit_success_predictor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764315770574
+status: 3
+tags: []
+user_id: dynos

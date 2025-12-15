@@ -1,0 +1,215 @@
+{
+    "indian_foods": [
+        {
+            "name": "Dal Tadka",
+            "calories": 150,
+            "protein": 12,
+            "carbs": 20,
+            "fat": 3,
+            "fiber": 8,
+            "category": "main_course",
+            "meal_type": "lunch_dinner",
+            "diet_type": "veg",
+            "cuisine": "north_indian",
+            "benefits": [
+                "high_protein",
+                "high_fiber",
+                "low_fat"
+            ],
+            "warnings": [
+                "none"
+            ]
+        },
+        {
+            "name": "Roti (Whole Wheat)",
+            "calories": 80,
+            "protein": 3,
+            "carbs": 15,
+            "fat": 1,
+            "fiber": 2,
+            "category": "bread",
+            "meal_type": "lunch_dinner",
+            "diet_type": "veg",
+            "cuisine": "indian",
+            "benefits": [
+                "complex_carbs",
+                "fiber"
+            ],
+            "warnings": [
+                "none"
+            ]
+        },
+        {
+            "name": "Rice (White, Cooked)",
+            "calories": 130,
+            "protein": 2.5,
+            "carbs": 28,
+            "fat": 0.3,
+            "fiber": 0.4,
+            "category": "grain",
+            "meal_type": "lunch_dinner",
+            "diet_type": "veg",
+            "cuisine": "indian",
+            "benefits": [
+                "energy"
+            ],
+            "warnings": [
+                "high_glycemic_index"
+            ]
+        },
+        {
+            "name": "Paneer Tikka",
+            "calories": 300,
+            "protein": 18,
+            "carbs": 8,
+            "fat": 22,
+            "fiber": 2,
+            "category": "snack",
+            "meal_type": "evening_snack",
+            "diet_type": "veg",
+            "cuisine": "north_indian",
+            "benefits": [
+                "high_protein",
+                "calcium"
+            ],
+            "warnings": [
+                "high_fat"
+            ]
+        },
+        {
+            "name": "Idli (2 pieces)",
+            "calories": 80,
+            "protein": 3,
+            "carbs": 16,
+            "fat": 0.5,
+            "fiber": 1,
+            "category": "breakfast",
+            "meal_type": "breakfast",
+            "diet_type": "veg",
+            "cuisine": "south_indian",
+            "benefits": [
+                "low_fat",
+                "easy_digest"
+            ],
+            "warnings": [
+                "none"
+            ]
+        },
+        {
+            "name": "Sambar (1 bowl)",
+            "calories": 120,
+            "protein": 6,
+            "carbs": 18,
+            "fat": 3,
+            "fiber": 5,
+            "category": "curry",
+            "meal_type": "breakfast_lunch",
+            "diet_type": "veg",
+            "cuisine": "south_indian",
+            "benefits": [
+                "high_fiber",
+                "protein",
+                "vitamins"
+            ],
+            "warnings": [
+                "none"
+            ]
+        },
+        {
+            "name": "Chicken Curry",
+            "calories": 250,
+            "protein": 28,
+            "carbs": 8,
+            "fat": 12,
+            "fiber": 2,
+            "category": "main_course",
+            "meal_type": "lunch_dinner",
+            "diet_type": "non_veg",
+            "cuisine": "indian",
+            "benefits": [
+                "high_protein",
+                "iron"
+            ],
+            "warnings": [
+                "moderate_fat"
+            ]
+        },
+        {
+            "name": "Poha",
+            "calories": 250,
+            "protein": 5,
+            "carbs": 40,
+            "fat": 8,
+            "fiber": 3,
+            "category": "breakfast",
+            "meal_type": "breakfast",
+            "diet_type": "veg",
+            "cuisine": "maharashtrian",
+            "benefits": [
+                "iron",
+                "quick_energy"
+            ],
+            "warnings": [
+                "moderate_carbs"
+            ]
+        },
+        {
+            "name": "Upma",
+            "calories": 200,
+            "protein": 4,
+            "carbs": 35,
+            "fat": 5,
+            "fiber": 3,
+            "category": "breakfast",
+            "meal_type": "breakfast",
+            "diet_type": "veg",
+            "cuisine": "south_indian",
+            "benefits": [
+                "fiber",
+                "vitamins"
+            ],
+            "warnings": [
+                "moderate_carbs"
+            ]
+        }
+    ],
+    "health_conditions": [
+        {
+            "condition": "diabetes",
+            "avoid": [
+                "Rice (White, Cooked)",
+                "high_glycemic_index"
+            ],
+            "recommend": [
+                "Dal Tadka",
+                "Roti (Whole Wheat)",
+                "high_fiber"
+            ],
+            "tips": "Choose complex carbs, avoid simple sugars"
+        },
+        {
+            "condition": "high_bp",
+            "avoid": [
+                "high_sodium"
+            ],
+            "recommend": [
+                "low_sodium",
+                "potassium_rich"
+            ],
+            "tips": "Reduce salt, avoid pickles and papad"
+        },
+        {
+            "condition": "pcos",
+            "avoid": [
+                "high_glycemic_index",
+                "processed_foods"
+            ],
+            "recommend": [
+                "high_fiber",
+                "high_protein",
+                "complex_carbs"
+            ],
+            "tips": "Focus on whole grains and lean protein"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+PATIENT REPORT
+Name: John Doe
+Age: 25
+Date: 2025-11-28
+
+TEST RESULTS:
+Fasting Blood Sugar: 110 mg/dL (High)
+HbA1c: 6.2% (Pre-diabetic)
+Cholesterol (Total): 180 mg/dL (Normal)
+Vitamin D: 15 ng/mL (Deficient)
+
+Notes:
+Patient advised to reduce sugar intake and increase sun exposure.

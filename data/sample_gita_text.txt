@@ -1,0 +1,3 @@
+[PLACEHOLDER FOR BHAGAVAD GITA TEXT]
+Please download the full PDF or Text version of the Bhagavad Gita and place it here for the RAG system to ingest.
+Recommended source: Project Gutenberg (The Song Celestial).

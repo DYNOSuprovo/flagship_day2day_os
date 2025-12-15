@@ -1,0 +1,75 @@
+{
+    "scriptures": [
+        {
+            "source": "Bhagavad Gita",
+            "chapter": 2,
+            "verse": 14,
+            "sanskrit": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ",
+            "translation": "O son of Kunti, the contact between the senses and the sense objects gives rise to fleeting perceptions of happiness and distress. These are non-permanent, and come and go like the winter and summer seasons. O descendent of Bharat, one must learn to tolerate them without being disturbed.",
+            "context": [
+                "stress",
+                "anxiety",
+                "temporary_pain",
+                "tolerance"
+            ],
+            "teaching": "All experiences are temporary. Learn to tolerate discomfort without being disturbed."
+        },
+        {
+            "source": "Bhagavad Gita",
+            "chapter": 2,
+            "verse": 47,
+            "sanskrit": "karmaṇy-evādhikāras te mā phaleṣhu kadāchana",
+            "translation": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.",
+            "context": [
+                "duty",
+                "detachment",
+                "anxiety",
+                "outcomes",
+                "work"
+            ],
+            "teaching": "Focus on your duty and effort, not on the outcome. Detach from results."
+        },
+        {
+            "source": "Bhagavad Gita",
+            "chapter": 6,
+            "verse": 5,
+            "sanskrit": "uddhared ātmanātmānaṁ nātmānam avasādayet",
+            "translation": "Elevate yourself through the power of your mind, and not degrade yourself, for the mind can be the friend and also the enemy of the self.",
+            "context": [
+                "self_improvement",
+                "mind_control",
+                "depression",
+                "motivation"
+            ],
+            "teaching": "The mind can be your friend or enemy. Use it to uplift yourself."
+        },
+        {
+            "source": "Bhagavad Gita",
+            "chapter": 18,
+            "verse": 66,
+            "sanskrit": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja",
+            "translation": "Abandon all varieties of dharmas and simply surrender unto me alone. I shall liberate you from all sinful reactions; do not fear.",
+            "context": [
+                "surrender",
+                "faith",
+                "fear",
+                "anxiety",
+                "trust"
+            ],
+            "teaching": "Surrender your fears and anxieties. Trust in the divine process."
+        },
+        {
+            "source": "Upanishads",
+            "chapter": "Mundaka",
+            "verse": "3.1.3",
+            "sanskrit": "nāyam ātmā pravacanena labhyo",
+            "translation": "This Self cannot be attained through study of the Vedas, nor through intelligence, nor through much learning. It can be attained only by those whom the Self chooses.",
+            "context": [
+                "self_realization",
+                "pursuit",
+                "knowledge"
+            ],
+            "teaching": "True knowledge comes from within, not just external study."
+        }
+    ]
+}
